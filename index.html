@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JS</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <style>
+
+        </style>
+        <script>
+            //I can write the JS code before the closing of head tag
+        </script>
+    </head>
+    <body>
+
+        <script>
+            //I can write the JS code before the closing of body tag
+            
+            //Functions
+            /*
+            1. Function Defination
+                function functionName()
+
+                // Is should be written in camelCase
+            */
+
+            //1. Function Defination
+            //Global Variable
+            let b = document.querySelector('body');
+
+            //example of function with no return value
+            function myFunctionA(){ //valid function name
+                console.log(b); //statement1
+                let h1 = document.createElement('h1');
+                let n1 = 'Principal of Bareilly school suspended, booked over religious prayer';
+                h1.append(n1);
+                b.append(h1);
+            }
+
+            //2. Function Calling
+            myFunctionA();
+        </script>
+        <script>
+
+            //1. Function Defination
+
+            //example of function with no return value
+            function myFunctionB(n2){ //valid function name
+
+            let h2 = document.createElement('h1');
+            h2.append(n2);
+            b.append(h2);
+            }
+        </script>
+        
+    </body>
+</html>
